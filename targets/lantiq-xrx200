@@ -54,6 +54,14 @@ device('avm-fritz-box-7430', 'avm_fritz7430', {
 	factory = false,
 })
 
+device('avm-fritz-box-7490', 'avm_fritz7490', {
+	factory = false,
+})
+
+device('avm-fritz-box-7490-micron', 'avm_fritz7490-micron', {
+	factory = false,
+})
+
 device('arcadyan-vgv7510kw22', 'arcadyan_vgv7510kw22-nor', {
 	factory = false,
 	aliases = {'o2-box-6431'},
