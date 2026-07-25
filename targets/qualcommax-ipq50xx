@@ -1,0 +1,8 @@
+-- Linksys
+
+device('linksys-mx2000', 'linksys_mx2000', {
+	packages = {
+		'-kmod-ath10k-ct-smallbuffers',
+		'-kmod-ath10k-smallbuffers',
+	}
+})
